@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img{
+    height: 250px;
+    width: 250px;
+    /* transition-property: all;
+    transition-duration: 5s;
+    transition-timing-function: linear; */
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background:linear-gradient(rgba(66, 66, 66, 0.4),rgba(66, 66, 66, 0.4)),url(./301566_beautiful-hd-wallpapers-weather-and-phenomena-backgrounds_1920x1080_h.jpg)
+}
+
+#maintg{
+    height: 600px;
+    width: 600px;
+    border: 5px double rgb(170, 141, 79);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 20px;
+    background-color: #acacbd;
+    box-shadow: 10px 10px 25px rgb(116, 174, 207);
+}
+
+#serch{
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+}
+
+#serchbx{
+    height: 35px;
+    width: 200px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border: 1px solid grey;
+    background-color: grey;
+    outline: none;
+    padding-left: 10px;
+    font-size: 15px;
+    /* box-shadow: 2px 2px 5px rgb(153, 47, 47); */
+}
+
+#serchbx::placeholder{
+    color: black;
+    /* padding-left: 5px; */
+}
+
+#srchbtn{
+    height: 35px;
+    width: 30px;
+    border-top-right-radius:10px;
+    border-bottom-right-radius: 10px;
+    border: 1px solid grey;
+    background-color: grey;
+    /* box-shadow: 2px 2px 5px rgb(153, 47, 47); */
+}
+
+.values{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 20px;
+    font-size: 17px;
+    /* border: 2px solid black; */
+    padding-left: 50px;
+    /* color: white; */
+    color: darkslategrey;
+    font-family: "Montserrat", sans-serif;
+}
+
+.col{
+    color: black;
+    font-size: 17px;
+    /* color: darkslategrey; */
+}
